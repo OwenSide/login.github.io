@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../img/img.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+.wrapper{
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  padding: 30px 40px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.wrapper_form{
+  text-align: center;
+}
+
+.login_title{
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.input_box{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input_box input{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input_box input::placeholder{
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.wrapper_form .bx{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.remember{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin-bottom: 15px;
+
+}
+
+.remember_input{
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember_link{
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.remember_link:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin-bottom: 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.register{
+  text-align: center;
+  font-size: 14.5px;
+}
+
+.register_link{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register_link:hover{
+  text-decoration: underline;
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.container .bx-play{
+  color: #fff;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.container .bx-pause{
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+
+
+
+@media (max-width: 420px){
+  .wrapper{
+    width: 356px;
+    padding: 20px 30px;
+  }
+}
